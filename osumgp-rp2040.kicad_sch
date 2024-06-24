@@ -1356,8 +1356,8 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "P2"
-				(at 5.7912 1.2954 0)
+			(property "Reference" "J3"
+				(at 5.842 -1.016 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1366,7 +1366,7 @@
 				)
 			)
 			(property "Value" "USB"
-				(at 5.7912 -1.016 0)
+				(at 5.8928 1.2446 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1375,7 +1375,7 @@
 				)
 			)
 			(property "Footprint" "Connector_JST:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical"
-				(at -3.81 6.35 0)
+				(at -3.81 11.176 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1384,7 +1384,7 @@
 				)
 			)
 			(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2304140030_JST-BM04B-SRSS-TB-LF-SN_C160390.pdf"
-				(at -5.08 3.81 0)
+				(at -2.286 8.636 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1393,7 +1393,7 @@
 				)
 			)
 			(property "Description" "USB"
-				(at 0 0 0)
+				(at -0.508 -6.858 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1402,7 +1402,7 @@
 				)
 			)
 			(property "LCSC" "C160390"
-				(at 0 0 0)
+				(at -1.524 6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1411,7 +1411,7 @@
 				)
 			)
 			(property "Group" "Peripherals"
-				(at 0 0 0)
+				(at -0.254 -8.636 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1420,7 +1420,7 @@
 				)
 			)
 			(property "Mount" "SMD"
-				(at 0 0 0)
+				(at 0 -10.668 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1429,7 +1429,7 @@
 				)
 			)
 			(property "Export" "yes"
-				(at 0 0 0)
+				(at 0.254 -12.446 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1438,7 +1438,7 @@
 				)
 			)
 			(property "Manufacturer" "JST"
-				(at 0 0 0)
+				(at 0.254 -0.254 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1447,7 +1447,7 @@
 				)
 			)
 			(property "Mfg Part #" "BM04B-SRSS-TB(LF)(SN)"
-				(at 0 0 0)
+				(at -1.524 13.97 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1543,6 +1543,42 @@
 						)
 					)
 					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 -7.62 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 7.62 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3774,7 +3810,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "P1"
+			(property "Reference" "J4"
 				(at 5.7912 1.2954 0)
 				(effects
 					(font
@@ -3793,7 +3829,7 @@
 				)
 			)
 			(property "Footprint" "Connector_JST:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical"
-				(at -3.81 6.35 0)
+				(at -3.81 9.398 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3802,7 +3838,7 @@
 				)
 			)
 			(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2304140030_JST-BM04B-SRSS-TB-LF-SN_C160390.pdf"
-				(at -5.08 3.81 0)
+				(at -5.08 6.858 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3961,6 +3997,42 @@
 						)
 					)
 					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 -7.62 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 7.62 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6960,7 +7032,7 @@
 		(uuid "1715d989-e8ae-41c0-b742-9da52a50e8db")
 	)
 	(junction
-		(at 25.4 257.175)
+		(at 26.67 257.81)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1a3f69aa-49ed-4548-8725-a49bf55f572b")
@@ -7002,7 +7074,7 @@
 		(uuid "354270b0-351e-441d-91be-9bf0d712b451")
 	)
 	(junction
-		(at 111.76 256.54)
+		(at 110.49 257.81)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "363063ae-b880-4607-88e2-e6a16b011623")
@@ -7128,7 +7200,7 @@
 		(uuid "8c805a22-c997-4c38-984e-637a61e76883")
 	)
 	(junction
-		(at 67.945 266.065)
+		(at 66.04 265.43)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8e6afe84-0fec-4bac-8c41-5588c9c9129b")
@@ -7140,7 +7212,7 @@
 		(uuid "8ffa6f66-c0de-4499-83e0-79535ff12899")
 	)
 	(junction
-		(at 67.945 258.445)
+		(at 66.04 257.81)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "909c7cfd-9bee-485d-a1de-0def3dfd821d")
@@ -7188,7 +7260,7 @@
 		(uuid "a3d9f747-995d-48fc-ad39-b217496f3045")
 	)
 	(junction
-		(at 111.76 260.35)
+		(at 110.49 261.62)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "aa780a25-e437-4a2b-a40e-6ce099c9dc52")
@@ -7272,7 +7344,7 @@
 		(uuid "bd34f018-3668-4a53-aba7-74c75f3780aa")
 	)
 	(junction
-		(at 25.4 260.985)
+		(at 26.67 261.62)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c1b97f51-5a25-47cd-9708-296bb9f84344")
@@ -7290,7 +7362,7 @@
 		(uuid "cba397b6-142b-406f-be03-8ffa8edbe812")
 	)
 	(junction
-		(at 111.76 264.16)
+		(at 110.49 265.43)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cc1610e6-999a-421e-b2ba-b4a9ce5678df")
@@ -7302,7 +7374,7 @@
 		(uuid "cdc6f9d4-99af-4be2-aad8-fb93e16145c0")
 	)
 	(junction
-		(at 25.4 268.605)
+		(at 26.67 269.24)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d1f40c23-bda0-4adf-9d12-e32f1cc9185a")
@@ -7344,7 +7416,7 @@
 		(uuid "d818e619-d108-48eb-a077-1f3163cc1c2f")
 	)
 	(junction
-		(at 25.4 264.795)
+		(at 26.67 265.43)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "da3ad875-7f54-4241-8ef2-0a90494fd62a")
@@ -7356,7 +7428,7 @@
 		(uuid "e0a5848d-5354-4acc-852a-9fbb2927fbe3")
 	)
 	(junction
-		(at 67.945 262.255)
+		(at 66.04 261.62)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e0a7d893-672f-4c82-bd5b-8324ecc30534")
@@ -7422,8 +7494,32 @@
 		(uuid "fe944219-abcc-42de-8ee7-b3d7b0b4f1d4")
 	)
 	(no_connect
+		(at 53.34 101.6)
+		(uuid "0395fc29-90fc-42a2-9242-245fa6bf670d")
+	)
+	(no_connect
 		(at 334.01 180.34)
 		(uuid "26f9ae12-3987-4f86-9d30-2f7f874aff60")
+	)
+	(no_connect
+		(at 58.42 95.25)
+		(uuid "3bbeb764-394a-4be6-8134-98ffe29110c3")
+	)
+	(no_connect
+		(at 58.42 110.49)
+		(uuid "5c1344e9-050c-41ab-abb3-958c3939f8d3")
+	)
+	(no_connect
+		(at 115.57 97.79)
+		(uuid "7ae7e640-e3ca-412b-a645-979403ff183a")
+	)
+	(no_connect
+		(at 115.57 113.03)
+		(uuid "856ae55f-3881-454a-9ab9-25f2a9d91bdc")
+	)
+	(no_connect
+		(at 55.88 110.49)
+		(uuid "b5cea07a-9f37-4809-8af4-4f42a4a813b9")
 	)
 	(no_connect
 		(at 334.01 177.8)
@@ -7449,7 +7545,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 268.605) (xy 29.21 268.605)
+			(xy 26.67 269.24) (xy 30.48 269.24)
 		)
 		(stroke
 			(width 0)
@@ -7509,7 +7605,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.945 254.635) (xy 67.945 258.445)
+			(xy 66.04 254) (xy 66.04 257.81)
 		)
 		(stroke
 			(width 0)
@@ -7559,7 +7655,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 253.365) (xy 25.4 257.175)
+			(xy 26.67 254) (xy 26.67 257.81)
 		)
 		(stroke
 			(width 0)
@@ -7799,7 +7895,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 264.795) (xy 29.21 264.795)
+			(xy 26.67 265.43) (xy 30.48 265.43)
 		)
 		(stroke
 			(width 0)
@@ -7829,7 +7925,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 264.16) (xy 139.7 264.16)
+			(xy 124.46 265.43) (xy 138.43 265.43)
 		)
 		(stroke
 			(width 0)
@@ -7859,7 +7955,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 260.985) (xy 50.8 260.985)
+			(xy 40.64 261.62) (xy 52.07 261.62)
 		)
 		(stroke
 			(width 0)
@@ -7899,7 +7995,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 268.605) (xy 50.8 268.605)
+			(xy 40.64 269.24) (xy 52.07 269.24)
 		)
 		(stroke
 			(width 0)
@@ -7979,23 +8075,13 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 268.605) (xy 25.4 271.145)
+			(xy 26.67 269.24) (xy 26.67 271.78)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "1e7704b0-12dd-4beb-95a7-80bf1498136e")
-	)
-	(polyline
-		(pts
-			(xy 141.605 247.65) (xy 102.87 247.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1f76a7de-545c-4a1b-afdc-4544efd959a9")
 	)
 	(wire
 		(pts
@@ -8029,7 +8115,7 @@
 	)
 	(polyline
 		(pts
-			(xy 20.955 76.073) (xy 142.748 75.946)
+			(xy 20.32 76.2) (xy 143.51 76.2)
 		)
 		(stroke
 			(width 0)
@@ -8179,7 +8265,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 252.73) (xy 111.76 256.54)
+			(xy 110.49 254) (xy 110.49 257.81)
 		)
 		(stroke
 			(width 0)
@@ -8359,7 +8445,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.915 262.255) (xy 93.345 262.255)
+			(xy 80.01 261.62) (xy 91.44 261.62)
 		)
 		(stroke
 			(width 0)
@@ -8379,7 +8465,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 260.35) (xy 115.57 260.35)
+			(xy 110.49 261.62) (xy 114.3 261.62)
 		)
 		(stroke
 			(width 0)
@@ -8479,7 +8565,7 @@
 	)
 	(polyline
 		(pts
-			(xy 52.705 248.285) (xy 52.705 279.4)
+			(xy 53.975 248.92) (xy 53.975 280.035)
 		)
 		(stroke
 			(width 0)
@@ -8649,7 +8735,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.915 254.635) (xy 93.345 254.635)
+			(xy 80.01 254) (xy 91.44 254)
 		)
 		(stroke
 			(width 0)
@@ -8706,6 +8792,16 @@
 			(type default)
 		)
 		(uuid "4dbede93-9446-4001-8e65-2a31020c7903")
+	)
+	(polyline
+		(pts
+			(xy 142.24 275.59) (xy 142.24 248.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4dc0681f-b388-408e-bc11-9720489dc07c")
 	)
 	(wire
 		(pts
@@ -8809,7 +8905,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 256.54) (xy 139.7 256.54)
+			(xy 124.46 257.81) (xy 138.43 257.81)
 		)
 		(stroke
 			(width 0)
@@ -9059,7 +9155,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 260.35) (xy 139.7 260.35)
+			(xy 124.46 261.62) (xy 138.43 261.62)
 		)
 		(stroke
 			(width 0)
@@ -9109,7 +9205,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 260.985) (xy 25.4 264.795)
+			(xy 26.67 261.62) (xy 26.67 265.43)
 		)
 		(stroke
 			(width 0)
@@ -9119,7 +9215,7 @@
 	)
 	(polyline
 		(pts
-			(xy 21.082 18.288) (xy 20.955 76.2)
+			(xy 20.32 17.78) (xy 20.32 76.2)
 		)
 		(stroke
 			(width 0)
@@ -9249,7 +9345,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 264.795) (xy 50.8 264.795)
+			(xy 40.64 265.43) (xy 52.07 265.43)
 		)
 		(stroke
 			(width 0)
@@ -9449,7 +9545,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.945 258.445) (xy 71.755 258.445)
+			(xy 66.04 257.81) (xy 69.85 257.81)
 		)
 		(stroke
 			(width 0)
@@ -9459,7 +9555,7 @@
 	)
 	(polyline
 		(pts
-			(xy 97.155 249.555) (xy 61.595 249.555)
+			(xy 95.25 248.92) (xy 59.69 248.92)
 		)
 		(stroke
 			(width 0)
@@ -9559,7 +9655,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 257.175) (xy 50.8 257.175)
+			(xy 40.64 257.81) (xy 52.07 257.81)
 		)
 		(stroke
 			(width 0)
@@ -9579,7 +9675,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 252.73) (xy 115.57 252.73)
+			(xy 110.49 254) (xy 114.3 254)
 		)
 		(stroke
 			(width 0)
@@ -9669,13 +9765,23 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 264.16) (xy 115.57 264.16)
+			(xy 110.49 265.43) (xy 114.3 265.43)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "93f69c64-79b9-4893-b53f-dacf7a295d1f")
+	)
+	(polyline
+		(pts
+			(xy 105.41 248.92) (xy 105.41 275.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9425508a-aed7-4b70-9507-828f67eb0af6")
 	)
 	(polyline
 		(pts
@@ -9709,7 +9815,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 260.985) (xy 29.21 260.985)
+			(xy 26.67 261.62) (xy 30.48 261.62)
 		)
 		(stroke
 			(width 0)
@@ -9739,7 +9845,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 257.175) (xy 25.4 260.985)
+			(xy 26.67 257.81) (xy 26.67 261.62)
 		)
 		(stroke
 			(width 0)
@@ -9749,7 +9855,7 @@
 	)
 	(polyline
 		(pts
-			(xy 52.705 279.4) (xy 18.415 279.4)
+			(xy 53.975 280.035) (xy 19.685 280.035)
 		)
 		(stroke
 			(width 0)
@@ -9809,7 +9915,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.945 258.445) (xy 67.945 262.255)
+			(xy 66.04 257.81) (xy 66.04 261.62)
 		)
 		(stroke
 			(width 0)
@@ -9839,7 +9945,7 @@
 	)
 	(polyline
 		(pts
-			(xy 18.415 248.285) (xy 18.415 279.4)
+			(xy 19.685 248.92) (xy 19.685 280.035)
 		)
 		(stroke
 			(width 0)
@@ -9849,7 +9955,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 252.73) (xy 139.7 252.73)
+			(xy 124.46 254) (xy 138.43 254)
 		)
 		(stroke
 			(width 0)
@@ -9909,7 +10015,7 @@
 	)
 	(polyline
 		(pts
-			(xy 142.748 75.946) (xy 142.748 18.288)
+			(xy 143.51 76.2) (xy 143.51 17.78)
 		)
 		(stroke
 			(width 0)
@@ -9979,7 +10085,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.945 266.065) (xy 67.945 268.605)
+			(xy 66.04 265.43) (xy 66.04 267.97)
 		)
 		(stroke
 			(width 0)
@@ -10019,7 +10125,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.945 262.255) (xy 71.755 262.255)
+			(xy 66.04 261.62) (xy 69.85 261.62)
 		)
 		(stroke
 			(width 0)
@@ -10069,7 +10175,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 257.175) (xy 29.21 257.175)
+			(xy 26.67 257.81) (xy 30.48 257.81)
 		)
 		(stroke
 			(width 0)
@@ -10079,7 +10185,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 264.16) (xy 111.76 266.7)
+			(xy 110.49 265.43) (xy 110.49 267.97)
 		)
 		(stroke
 			(width 0)
@@ -10119,23 +10225,13 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 264.795) (xy 25.4 268.605)
+			(xy 26.67 265.43) (xy 26.67 269.24)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "ad20652a-f9c6-4fc8-b657-16d577857ac9")
-	)
-	(polyline
-		(pts
-			(xy 102.87 275.59) (xy 141.605 275.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "add075d8-4936-45aa-abbe-d943dfc5fa97")
 	)
 	(wire
 		(pts
@@ -10169,7 +10265,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.915 266.065) (xy 93.345 266.065)
+			(xy 80.01 265.43) (xy 91.44 265.43)
 		)
 		(stroke
 			(width 0)
@@ -10189,7 +10285,7 @@
 	)
 	(polyline
 		(pts
-			(xy 97.155 276.225) (xy 97.155 249.555)
+			(xy 95.25 275.59) (xy 95.25 248.92)
 		)
 		(stroke
 			(width 0)
@@ -10399,7 +10495,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.945 266.065) (xy 71.755 266.065)
+			(xy 66.04 265.43) (xy 69.85 265.43)
 		)
 		(stroke
 			(width 0)
@@ -10409,7 +10505,7 @@
 	)
 	(polyline
 		(pts
-			(xy 18.415 248.285) (xy 52.705 248.285)
+			(xy 19.685 248.92) (xy 53.975 248.92)
 		)
 		(stroke
 			(width 0)
@@ -10469,7 +10565,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 256.54) (xy 115.57 256.54)
+			(xy 110.49 257.81) (xy 114.3 257.81)
 		)
 		(stroke
 			(width 0)
@@ -10479,7 +10575,7 @@
 	)
 	(polyline
 		(pts
-			(xy 142.748 18.288) (xy 143.002 18.288)
+			(xy 143.51 17.78) (xy 143.51 17.78)
 		)
 		(stroke
 			(width 0)
@@ -10589,7 +10685,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 260.35) (xy 111.76 264.16)
+			(xy 110.49 261.62) (xy 110.49 265.43)
 		)
 		(stroke
 			(width 0)
@@ -10749,7 +10845,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.945 262.255) (xy 67.945 266.065)
+			(xy 66.04 261.62) (xy 66.04 265.43)
 		)
 		(stroke
 			(width 0)
@@ -10766,16 +10862,6 @@
 			(type default)
 		)
 		(uuid "d051d55b-c6c8-48aa-a080-fee8e49bcf72")
-	)
-	(polyline
-		(pts
-			(xy 102.87 247.65) (xy 102.87 275.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d0927901-06cd-410f-8376-cefe30ccbc51")
 	)
 	(polyline
 		(pts
@@ -10849,7 +10935,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 253.365) (xy 50.8 253.365)
+			(xy 40.64 254) (xy 52.07 254)
 		)
 		(stroke
 			(width 0)
@@ -10897,19 +10983,9 @@
 		)
 		(uuid "d86d7d93-4179-49ee-8aec-bd0543aee4ef")
 	)
-	(polyline
-		(pts
-			(xy 141.605 275.59) (xy 141.605 247.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d8878739-b6fb-4230-80bf-b1b7e88d36f3")
-	)
 	(wire
 		(pts
-			(xy 25.4 253.365) (xy 29.21 253.365)
+			(xy 26.67 254) (xy 30.48 254)
 		)
 		(stroke
 			(width 0)
@@ -10946,6 +11022,16 @@
 			(type default)
 		)
 		(uuid "dc7ac954-4268-4715-a32a-712782bcbc58")
+	)
+	(polyline
+		(pts
+			(xy 142.24 248.92) (xy 105.41 248.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dda959e9-d528-4e2b-b516-570930792eca")
 	)
 	(wire
 		(pts
@@ -11009,7 +11095,7 @@
 	)
 	(polyline
 		(pts
-			(xy 61.595 276.225) (xy 97.155 276.225)
+			(xy 59.69 275.59) (xy 95.25 275.59)
 		)
 		(stroke
 			(width 0)
@@ -11069,7 +11155,7 @@
 	)
 	(polyline
 		(pts
-			(xy 61.595 249.555) (xy 61.595 276.225)
+			(xy 59.69 248.92) (xy 59.69 275.59)
 		)
 		(stroke
 			(width 0)
@@ -11209,7 +11295,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.945 254.635) (xy 71.755 254.635)
+			(xy 66.04 254) (xy 69.85 254)
 		)
 		(stroke
 			(width 0)
@@ -11289,13 +11375,23 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 256.54) (xy 111.76 260.35)
+			(xy 110.49 257.81) (xy 110.49 261.62)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "f550c5ed-7e0f-4165-8625-7e84eb1e2fbc")
+	)
+	(polyline
+		(pts
+			(xy 105.41 275.59) (xy 142.24 275.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5d8ac4a-67f3-401a-acd0-3616fed7def8")
 	)
 	(wire
 		(pts
@@ -11359,7 +11455,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.915 258.445) (xy 93.345 258.445)
+			(xy 80.01 257.81) (xy 91.44 257.81)
 		)
 		(stroke
 			(width 0)
@@ -11439,7 +11535,7 @@
 	)
 	(polyline
 		(pts
-			(xy 143.002 18.288) (xy 21.082 18.288)
+			(xy 143.51 17.78) (xy 20.32 17.78)
 		)
 		(stroke
 			(width 0)
@@ -11471,7 +11567,7 @@
 	)
 	(text "D-PAD BUTTONS"
 		(exclude_from_sim no)
-		(at 102.87 247.65 0)
+		(at 105.41 248.92 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11504,7 +11600,7 @@
 	)
 	(text "CENTER BUTTONS"
 		(exclude_from_sim no)
-		(at 18.288 247.777 0)
+		(at 19.558 248.412 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11515,7 +11611,7 @@
 	)
 	(text "ACTION BUTTONS"
 		(exclude_from_sim no)
-		(at 61.595 249.555 0)
+		(at 59.69 248.92 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11591,7 +11687,7 @@
 		(uuid "0a1b80e2-ab47-4a28-91ad-0aa8a38a5ae7")
 	)
 	(label "BUTTON_A1"
-		(at 50.8 268.605 180)
+		(at 52.07 269.24 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11811,7 +11907,7 @@
 		(uuid "4f660e0e-d174-49b8-a741-19c7fb822eb0")
 	)
 	(label "BUTTON_B1"
-		(at 93.345 254.635 180)
+		(at 91.44 254 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11822,7 +11918,7 @@
 		(uuid "4f957cd6-11ef-4255-85d5-d3bb967259cd")
 	)
 	(label "BUTTON_B3"
-		(at 93.345 262.255 180)
+		(at 91.44 261.62 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11866,7 +11962,7 @@
 		)
 	)
 	(label "BUTTON_B4"
-		(at 93.345 266.065 180)
+		(at 91.44 265.43 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11877,7 +11973,7 @@
 		(uuid "65fc73b9-6e43-4527-bdb2-845aa8ea1716")
 	)
 	(label "BUTTON_A2"
-		(at 50.8 260.985 180)
+		(at 52.07 261.62 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11976,7 +12072,7 @@
 		(uuid "7e363161-387f-4fc8-9367-f71dde0d0fe7")
 	)
 	(label "BUTTON_DOWN"
-		(at 139.7 252.73 180)
+		(at 138.43 254 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12229,7 +12325,7 @@
 		(uuid "ba6891f2-2f69-43e0-b47d-3340e89a9d7a")
 	)
 	(label "BUTTON_RIGHT"
-		(at 139.7 256.54 180)
+		(at 138.43 257.81 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12262,7 +12358,7 @@
 		(uuid "c53ce87d-bfce-4ad2-936a-9764e4a68374")
 	)
 	(label "BUTTON_UP"
-		(at 139.7 264.16 180)
+		(at 138.43 265.43 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12273,7 +12369,7 @@
 		(uuid "c845d67c-a859-483b-bbaa-a5149d52d049")
 	)
 	(label "BUTTON_S1"
-		(at 50.8 253.365 180)
+		(at 52.07 254 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12328,7 +12424,7 @@
 		(uuid "d64cc9d3-5b5d-46d4-a814-2f3e8107b940")
 	)
 	(label "BUTTON_B2"
-		(at 93.345 258.445 180)
+		(at 91.44 257.81 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12416,7 +12512,7 @@
 		(uuid "e0411f9c-ad63-47b8-8c78-b1713457ede5")
 	)
 	(label "BUTTON_LEFT"
-		(at 139.7 260.35 180)
+		(at 138.43 261.62 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12449,7 +12545,7 @@
 		(uuid "e8b364f8-662c-446e-a6be-9beeac6339a1")
 	)
 	(label "GPIO4"
-		(at 50.8 264.795 180)
+		(at 52.07 265.43 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12559,7 +12655,7 @@
 		(uuid "fa0a90e9-dd56-4861-b366-dd66d637e72f")
 	)
 	(label "BUTTON_S2"
-		(at 50.8 257.175 180)
+		(at 52.07 257.81 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13688,7 +13784,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 120.65 252.73 0)
+		(at 119.38 254 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13696,7 +13792,7 @@
 		(dnp no)
 		(uuid "19337622-e660-49d6-b67f-848092398ebb")
 		(property "Reference" "S1"
-			(at 114.3 251.46 0)
+			(at 113.03 252.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13704,7 +13800,7 @@
 			)
 		)
 		(property "Value" "Face Button"
-			(at 127 251.46 0)
+			(at 125.73 252.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13713,7 +13809,7 @@
 			)
 		)
 		(property "Footprint" "ILO_fp:Alpsalpine_SKPM"
-			(at 120.65 247.65 0)
+			(at 119.38 248.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13722,7 +13818,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1811111111_ALPSALPINE-SKPMAME010_C115348.pdf"
-			(at 120.65 247.65 0)
+			(at 119.38 248.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13731,7 +13827,7 @@
 			)
 		)
 		(property "Description" "Down"
-			(at 120.65 252.73 0)
+			(at 119.38 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13740,7 +13836,7 @@
 			)
 		)
 		(property "LCSC" "C115348"
-			(at 120.65 252.73 0)
+			(at 119.38 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13749,7 +13845,7 @@
 			)
 		)
 		(property "Group" "Button front"
-			(at 120.65 252.73 0)
+			(at 119.38 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13758,7 +13854,7 @@
 			)
 		)
 		(property "Mount" "SMD"
-			(at 120.65 252.73 0)
+			(at 119.38 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13767,7 +13863,7 @@
 			)
 		)
 		(property "Export" "yes"
-			(at 120.65 252.73 0)
+			(at 119.38 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13776,7 +13872,7 @@
 			)
 		)
 		(property "Manufacturer" "ALPSALPINE"
-			(at 120.65 252.73 0)
+			(at 119.38 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13785,7 +13881,7 @@
 			)
 		)
 		(property "Mfg Part #" "SKPMAME010"
-			(at 120.65 252.73 0)
+			(at 119.38 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13794,7 +13890,7 @@
 			)
 		)
 		(property "Type" ""
-			(at 120.65 252.73 0)
+			(at 119.38 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13819,7 +13915,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 34.29 260.985 0)
+		(at 35.56 261.62 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13828,7 +13924,7 @@
 		(fields_autoplaced yes)
 		(uuid "193ef492-99df-48c5-893c-95d240882a75")
 		(property "Reference" "S11"
-			(at 27.94 259.715 0)
+			(at 29.21 260.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13836,7 +13932,7 @@
 			)
 		)
 		(property "Value" "Face Button"
-			(at 40.64 259.715 0)
+			(at 41.91 260.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13845,7 +13941,7 @@
 			)
 		)
 		(property "Footprint" "ILO_fp:Alpsalpine_SKPM"
-			(at 34.29 255.905 0)
+			(at 35.56 256.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13854,7 +13950,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1811111111_ALPSALPINE-SKPMAME010_C115348.pdf"
-			(at 34.29 255.905 0)
+			(at 35.56 256.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13863,7 +13959,7 @@
 			)
 		)
 		(property "Description" "A2"
-			(at 34.29 260.985 0)
+			(at 35.56 261.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13872,7 +13968,7 @@
 			)
 		)
 		(property "LCSC" "C115348"
-			(at 34.29 260.985 0)
+			(at 35.56 261.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13881,7 +13977,7 @@
 			)
 		)
 		(property "Group" "Button front"
-			(at 34.29 260.985 0)
+			(at 35.56 261.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13890,7 +13986,7 @@
 			)
 		)
 		(property "Mount" "SMD"
-			(at 34.29 260.985 0)
+			(at 35.56 261.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13899,7 +13995,7 @@
 			)
 		)
 		(property "Export" "yes"
-			(at 34.29 260.985 0)
+			(at 35.56 261.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13908,7 +14004,7 @@
 			)
 		)
 		(property "Manufacturer" "ALPSALPINE"
-			(at 34.29 260.985 0)
+			(at 35.56 261.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13917,7 +14013,7 @@
 			)
 		)
 		(property "Mfg Part #" "SKPMAME010"
-			(at 34.29 260.985 0)
+			(at 35.56 261.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13926,7 +14022,7 @@
 			)
 		)
 		(property "Type" ""
-			(at 34.29 260.985 0)
+			(at 35.56 261.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13951,7 +14047,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 76.835 262.255 0)
+		(at 74.93 261.62 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13959,7 +14055,7 @@
 		(dnp no)
 		(uuid "19b8a904-80d5-4b70-9cd7-e29e0788e7f4")
 		(property "Reference" "S7"
-			(at 70.485 260.985 0)
+			(at 68.58 260.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13967,7 +14063,7 @@
 			)
 		)
 		(property "Value" "Face Button"
-			(at 83.185 260.985 0)
+			(at 81.28 260.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13976,7 +14072,7 @@
 			)
 		)
 		(property "Footprint" "ILO_fp:Alpsalpine_SKPM"
-			(at 76.835 257.175 0)
+			(at 74.93 256.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13985,7 +14081,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1811111111_ALPSALPINE-SKPMAME010_C115348.pdf"
-			(at 76.835 257.175 0)
+			(at 74.93 256.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13994,7 +14090,7 @@
 			)
 		)
 		(property "Description" "B3"
-			(at 76.835 262.255 0)
+			(at 74.93 261.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14003,7 +14099,7 @@
 			)
 		)
 		(property "LCSC" "C115348"
-			(at 76.835 262.255 0)
+			(at 74.93 261.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14012,7 +14108,7 @@
 			)
 		)
 		(property "Group" "Button front"
-			(at 76.835 262.255 0)
+			(at 74.93 261.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14021,7 +14117,7 @@
 			)
 		)
 		(property "Mount" "SMD"
-			(at 76.835 262.255 0)
+			(at 74.93 261.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14030,7 +14126,7 @@
 			)
 		)
 		(property "Export" "yes"
-			(at 76.835 262.255 0)
+			(at 74.93 261.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14039,7 +14135,7 @@
 			)
 		)
 		(property "Manufacturer" "ALPSALPINE"
-			(at 76.835 262.255 0)
+			(at 74.93 261.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14048,7 +14144,7 @@
 			)
 		)
 		(property "Mfg Part #" "SKPMAME010"
-			(at 76.835 262.255 0)
+			(at 74.93 261.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14057,7 +14153,7 @@
 			)
 		)
 		(property "Type" ""
-			(at 76.835 262.255 0)
+			(at 74.93 261.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14394,7 +14490,7 @@
 	(symbol
 		(lib_name "GND_14")
 		(lib_id "power:GND")
-		(at 67.945 268.605 0)
+		(at 66.04 267.97 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14403,7 +14499,7 @@
 		(fields_autoplaced yes)
 		(uuid "253d3da2-9363-43a7-bf6c-3985eb1dd507")
 		(property "Reference" "#PWR061"
-			(at 67.945 274.955 0)
+			(at 66.04 274.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14412,7 +14508,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 67.945 273.685 0)
+			(at 66.04 273.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14420,7 +14516,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 67.945 268.605 0)
+			(at 66.04 267.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14429,7 +14525,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 67.945 268.605 0)
+			(at 66.04 267.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14438,7 +14534,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 67.945 268.605 0)
+			(at 66.04 267.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14892,7 +14988,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 76.835 254.635 0)
+		(at 74.93 254 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14900,7 +14996,7 @@
 		(dnp no)
 		(uuid "2e2d6c26-7621-4cff-a92e-0556e1f517d1")
 		(property "Reference" "S5"
-			(at 70.485 253.365 0)
+			(at 68.58 252.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14908,7 +15004,7 @@
 			)
 		)
 		(property "Value" "Face Button"
-			(at 83.185 253.365 0)
+			(at 81.28 252.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14917,7 +15013,7 @@
 			)
 		)
 		(property "Footprint" "ILO_fp:Alpsalpine_SKPM"
-			(at 76.835 249.555 0)
+			(at 74.93 248.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14926,7 +15022,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1811111111_ALPSALPINE-SKPMAME010_C115348.pdf"
-			(at 76.835 249.555 0)
+			(at 74.93 248.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14935,7 +15031,7 @@
 			)
 		)
 		(property "Description" "B1"
-			(at 76.835 254.635 0)
+			(at 74.93 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14944,7 +15040,7 @@
 			)
 		)
 		(property "LCSC" "C115348"
-			(at 76.835 254.635 0)
+			(at 74.93 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14953,7 +15049,7 @@
 			)
 		)
 		(property "Group" "Button front"
-			(at 76.835 254.635 0)
+			(at 74.93 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14962,7 +15058,7 @@
 			)
 		)
 		(property "Mount" "SMD"
-			(at 76.835 254.635 0)
+			(at 74.93 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14971,7 +15067,7 @@
 			)
 		)
 		(property "Export" "yes"
-			(at 76.835 254.635 0)
+			(at 74.93 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14980,7 +15076,7 @@
 			)
 		)
 		(property "Manufacturer" "ALPSALPINE"
-			(at 76.835 254.635 0)
+			(at 74.93 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14989,7 +15085,7 @@
 			)
 		)
 		(property "Mfg Part #" "SKPMAME010"
-			(at 76.835 254.635 0)
+			(at 74.93 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14998,7 +15094,7 @@
 			)
 		)
 		(property "Type" ""
-			(at 76.835 254.635 0)
+			(at 74.93 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17859,7 +17955,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 120.65 256.54 0)
+		(at 119.38 257.81 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17867,7 +17963,7 @@
 		(dnp no)
 		(uuid "676b4696-8ac1-4630-a523-d57648fdb9b9")
 		(property "Reference" "S2"
-			(at 114.3 255.27 0)
+			(at 113.03 256.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17875,7 +17971,7 @@
 			)
 		)
 		(property "Value" "Face Button"
-			(at 127 255.27 0)
+			(at 125.73 256.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17884,7 +17980,7 @@
 			)
 		)
 		(property "Footprint" "ILO_fp:Alpsalpine_SKPM"
-			(at 120.65 251.46 0)
+			(at 119.38 252.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17893,7 +17989,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1811111111_ALPSALPINE-SKPMAME010_C115348.pdf"
-			(at 120.65 251.46 0)
+			(at 119.38 252.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17902,7 +17998,7 @@
 			)
 		)
 		(property "Description" "Right"
-			(at 120.65 256.54 0)
+			(at 119.38 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17911,7 +18007,7 @@
 			)
 		)
 		(property "LCSC" "C115348"
-			(at 120.65 256.54 0)
+			(at 119.38 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17920,7 +18016,7 @@
 			)
 		)
 		(property "Group" "Button front"
-			(at 120.65 256.54 0)
+			(at 119.38 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17929,7 +18025,7 @@
 			)
 		)
 		(property "Mount" "SMD"
-			(at 120.65 256.54 0)
+			(at 119.38 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17938,7 +18034,7 @@
 			)
 		)
 		(property "Export" "yes"
-			(at 120.65 256.54 0)
+			(at 119.38 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17947,7 +18043,7 @@
 			)
 		)
 		(property "Manufacturer" "ALPSALPINE"
-			(at 120.65 256.54 0)
+			(at 119.38 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17956,7 +18052,7 @@
 			)
 		)
 		(property "Mfg Part #" "SKPMAME010"
-			(at 120.65 256.54 0)
+			(at 119.38 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17965,7 +18061,7 @@
 			)
 		)
 		(property "Type" ""
-			(at 120.65 256.54 0)
+			(at 119.38 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18017,7 +18113,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical"
-			(at 107.95 111.76 0)
+			(at 107.95 114.808 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18026,7 +18122,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2304140030_JST-BM04B-SRSS-TB-LF-SN_C160390.pdf"
-			(at 106.68 109.22 0)
+			(at 106.68 112.268 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18118,6 +18214,12 @@
 		(pin "4"
 			(uuid "f8a52b0d-8b89-4407-a94f-db8f913c47e5")
 		)
+		(pin "MP"
+			(uuid "7c52545b-204e-46e5-9554-b2ec1a9bc3e6")
+		)
+		(pin "MP"
+			(uuid "3a86ac97-6c12-4996-8eea-ffe37b25638a")
+		)
 		(instances
 			(project "osumgp-rp2040"
 				(path "/73e46140-01b8-4ec1-93bb-0d72bea0e0ee"
@@ -18196,7 +18298,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 120.65 260.35 0)
+		(at 119.38 261.62 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18204,7 +18306,7 @@
 		(dnp no)
 		(uuid "6a38cdcf-1f87-46a3-9702-6899e8bd07cd")
 		(property "Reference" "S3"
-			(at 114.3 259.08 0)
+			(at 113.03 260.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18212,7 +18314,7 @@
 			)
 		)
 		(property "Value" "Face Button"
-			(at 127 259.08 0)
+			(at 125.73 260.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18221,7 +18323,7 @@
 			)
 		)
 		(property "Footprint" "ILO_fp:Alpsalpine_SKPM"
-			(at 120.65 255.27 0)
+			(at 119.38 256.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18230,7 +18332,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1811111111_ALPSALPINE-SKPMAME010_C115348.pdf"
-			(at 120.65 255.27 0)
+			(at 119.38 256.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18239,7 +18341,7 @@
 			)
 		)
 		(property "Description" "Left"
-			(at 120.65 260.35 0)
+			(at 119.38 261.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18248,7 +18350,7 @@
 			)
 		)
 		(property "LCSC" "C115348"
-			(at 120.65 260.35 0)
+			(at 119.38 261.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18257,7 +18359,7 @@
 			)
 		)
 		(property "Group" "Button front"
-			(at 120.65 260.35 0)
+			(at 119.38 261.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18266,7 +18368,7 @@
 			)
 		)
 		(property "Mount" "SMD"
-			(at 120.65 260.35 0)
+			(at 119.38 261.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18275,7 +18377,7 @@
 			)
 		)
 		(property "Export" "yes"
-			(at 120.65 260.35 0)
+			(at 119.38 261.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18284,7 +18386,7 @@
 			)
 		)
 		(property "Manufacturer" "ALPSALPINE"
-			(at 120.65 260.35 0)
+			(at 119.38 261.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18293,7 +18395,7 @@
 			)
 		)
 		(property "Mfg Part #" "SKPMAME010"
-			(at 120.65 260.35 0)
+			(at 119.38 261.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18302,7 +18404,7 @@
 			)
 		)
 		(property "Type" ""
-			(at 120.65 260.35 0)
+			(at 119.38 261.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19017,7 +19119,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 34.29 264.795 0)
+		(at 35.56 265.43 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19026,7 +19128,7 @@
 		(fields_autoplaced yes)
 		(uuid "794104f8-af36-4ad1-a4a1-fb48da28938c")
 		(property "Reference" "S12"
-			(at 27.94 263.525 0)
+			(at 29.21 264.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19034,7 +19136,7 @@
 			)
 		)
 		(property "Value" "Face Button"
-			(at 40.64 263.525 0)
+			(at 41.91 264.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19043,7 +19145,7 @@
 			)
 		)
 		(property "Footprint" "ILO_fp:Alpsalpine_SKPM"
-			(at 34.29 259.715 0)
+			(at 35.56 260.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19052,7 +19154,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1811111111_ALPSALPINE-SKPMAME010_C115348.pdf"
-			(at 34.29 259.715 0)
+			(at 35.56 260.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19061,7 +19163,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 34.29 264.795 0)
+			(at 35.56 265.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19070,7 +19172,7 @@
 			)
 		)
 		(property "LCSC" "C115348"
-			(at 34.29 264.795 0)
+			(at 35.56 265.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19079,7 +19181,7 @@
 			)
 		)
 		(property "Group" "Button front"
-			(at 34.29 264.795 0)
+			(at 35.56 265.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19088,7 +19190,7 @@
 			)
 		)
 		(property "Mount" "SMD"
-			(at 34.29 264.795 0)
+			(at 35.56 265.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19097,7 +19199,7 @@
 			)
 		)
 		(property "Export" "yes"
-			(at 34.29 264.795 0)
+			(at 35.56 265.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19106,7 +19208,7 @@
 			)
 		)
 		(property "Manufacturer" "ALPSALPINE"
-			(at 34.29 264.795 0)
+			(at 35.56 265.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19115,7 +19217,7 @@
 			)
 		)
 		(property "Mfg Part #" "SKPMAME010"
-			(at 34.29 264.795 0)
+			(at 35.56 265.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19124,7 +19226,7 @@
 			)
 		)
 		(property "Type" ""
-			(at 34.29 264.795 0)
+			(at 35.56 265.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19216,7 +19318,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 76.835 258.445 0)
+		(at 74.93 257.81 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19224,7 +19326,7 @@
 		(dnp no)
 		(uuid "7eb7f6bc-2ece-47d1-abdc-0ed1aea9ec4a")
 		(property "Reference" "S6"
-			(at 70.485 257.175 0)
+			(at 68.58 256.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19232,7 +19334,7 @@
 			)
 		)
 		(property "Value" "Face Button"
-			(at 83.185 257.175 0)
+			(at 81.28 256.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19241,7 +19343,7 @@
 			)
 		)
 		(property "Footprint" "ILO_fp:Alpsalpine_SKPM"
-			(at 76.835 253.365 0)
+			(at 74.93 252.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19250,7 +19352,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1811111111_ALPSALPINE-SKPMAME010_C115348.pdf"
-			(at 76.835 253.365 0)
+			(at 74.93 252.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19259,7 +19361,7 @@
 			)
 		)
 		(property "Description" "B2"
-			(at 76.835 258.445 0)
+			(at 74.93 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19268,7 +19370,7 @@
 			)
 		)
 		(property "LCSC" "C115348"
-			(at 76.835 258.445 0)
+			(at 74.93 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19277,7 +19379,7 @@
 			)
 		)
 		(property "Group" "Button front"
-			(at 76.835 258.445 0)
+			(at 74.93 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19286,7 +19388,7 @@
 			)
 		)
 		(property "Mount" "SMD"
-			(at 76.835 258.445 0)
+			(at 74.93 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19295,7 +19397,7 @@
 			)
 		)
 		(property "Export" "yes"
-			(at 76.835 258.445 0)
+			(at 74.93 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19304,7 +19406,7 @@
 			)
 		)
 		(property "Manufacturer" "ALPSALPINE"
-			(at 76.835 258.445 0)
+			(at 74.93 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19313,7 +19415,7 @@
 			)
 		)
 		(property "Mfg Part #" "SKPMAME010"
-			(at 76.835 258.445 0)
+			(at 74.93 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19322,7 +19424,7 @@
 			)
 		)
 		(property "Type" ""
-			(at 76.835 258.445 0)
+			(at 74.93 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20514,7 +20616,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 120.65 264.16 0)
+		(at 119.38 265.43 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20522,7 +20624,7 @@
 		(dnp no)
 		(uuid "955db2fb-32c5-4af8-9895-43e4287b799e")
 		(property "Reference" "S4"
-			(at 114.3 262.89 0)
+			(at 113.03 264.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20530,7 +20632,7 @@
 			)
 		)
 		(property "Value" "Face Button"
-			(at 127 262.89 0)
+			(at 125.73 264.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20539,7 +20641,7 @@
 			)
 		)
 		(property "Footprint" "ILO_fp:Alpsalpine_SKPM"
-			(at 120.65 259.08 0)
+			(at 119.38 260.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20548,7 +20650,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1811111111_ALPSALPINE-SKPMAME010_C115348.pdf"
-			(at 120.65 259.08 0)
+			(at 119.38 260.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20557,7 +20659,7 @@
 			)
 		)
 		(property "Description" "Up"
-			(at 120.65 264.16 0)
+			(at 119.38 265.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20566,7 +20668,7 @@
 			)
 		)
 		(property "LCSC" "C115348"
-			(at 120.65 264.16 0)
+			(at 119.38 265.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20575,7 +20677,7 @@
 			)
 		)
 		(property "Group" "Button front"
-			(at 120.65 264.16 0)
+			(at 119.38 265.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20584,7 +20686,7 @@
 			)
 		)
 		(property "Mount" "SMD"
-			(at 120.65 264.16 0)
+			(at 119.38 265.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20593,7 +20695,7 @@
 			)
 		)
 		(property "Export" "yes"
-			(at 120.65 264.16 0)
+			(at 119.38 265.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20602,7 +20704,7 @@
 			)
 		)
 		(property "Manufacturer" "ALPSALPINE"
-			(at 120.65 264.16 0)
+			(at 119.38 265.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20611,7 +20713,7 @@
 			)
 		)
 		(property "Mfg Part #" "SKPMAME010"
-			(at 120.65 264.16 0)
+			(at 119.38 265.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20620,7 +20722,7 @@
 			)
 		)
 		(property "Type" ""
-			(at 120.65 264.16 0)
+			(at 119.38 265.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21146,7 +21248,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 34.29 268.605 0)
+		(at 35.56 269.24 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21155,7 +21257,7 @@
 		(fields_autoplaced yes)
 		(uuid "a65d7c13-7ef8-46ef-bcdf-b8ccca49c7af")
 		(property "Reference" "S14"
-			(at 27.94 267.335 0)
+			(at 29.21 267.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21163,7 +21265,7 @@
 			)
 		)
 		(property "Value" "Face Button"
-			(at 40.64 267.335 0)
+			(at 41.91 267.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21172,7 +21274,7 @@
 			)
 		)
 		(property "Footprint" "ILO_fp:Alpsalpine_SKPM"
-			(at 34.29 263.525 0)
+			(at 35.56 264.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21181,7 +21283,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1811111111_ALPSALPINE-SKPMAME010_C115348.pdf"
-			(at 34.29 263.525 0)
+			(at 35.56 264.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21190,7 +21292,7 @@
 			)
 		)
 		(property "Description" "A1"
-			(at 34.29 268.605 0)
+			(at 35.56 269.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21199,7 +21301,7 @@
 			)
 		)
 		(property "LCSC" "C115348"
-			(at 34.29 268.605 0)
+			(at 35.56 269.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21208,7 +21310,7 @@
 			)
 		)
 		(property "Group" "Button front"
-			(at 34.29 268.605 0)
+			(at 35.56 269.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21217,7 +21319,7 @@
 			)
 		)
 		(property "Mount" "SMD"
-			(at 34.29 268.605 0)
+			(at 35.56 269.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21226,7 +21328,7 @@
 			)
 		)
 		(property "Export" "yes"
-			(at 34.29 268.605 0)
+			(at 35.56 269.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21235,7 +21337,7 @@
 			)
 		)
 		(property "Manufacturer" "ALPSALPINE"
-			(at 34.29 268.605 0)
+			(at 35.56 269.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21244,7 +21346,7 @@
 			)
 		)
 		(property "Mfg Part #" "SKPMAME010"
-			(at 34.29 268.605 0)
+			(at 35.56 269.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21253,7 +21355,7 @@
 			)
 		)
 		(property "Type" ""
-			(at 34.29 268.605 0)
+			(at 35.56 269.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21349,7 +21451,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 76.835 266.065 0)
+		(at 74.93 265.43 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21357,7 +21459,7 @@
 		(dnp no)
 		(uuid "a97315f5-ec7b-4f17-b867-d7aadda0137e")
 		(property "Reference" "S8"
-			(at 70.485 264.795 0)
+			(at 68.58 264.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21365,7 +21467,7 @@
 			)
 		)
 		(property "Value" "Face Button"
-			(at 83.185 264.795 0)
+			(at 81.28 264.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21374,7 +21476,7 @@
 			)
 		)
 		(property "Footprint" "ILO_fp:Alpsalpine_SKPM"
-			(at 76.835 260.985 0)
+			(at 74.93 260.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21383,7 +21485,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1811111111_ALPSALPINE-SKPMAME010_C115348.pdf"
-			(at 76.835 260.985 0)
+			(at 74.93 260.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21392,7 +21494,7 @@
 			)
 		)
 		(property "Description" "B4"
-			(at 76.835 266.065 0)
+			(at 74.93 265.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21401,7 +21503,7 @@
 			)
 		)
 		(property "LCSC" "C115348"
-			(at 76.835 266.065 0)
+			(at 74.93 265.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21410,7 +21512,7 @@
 			)
 		)
 		(property "Group" "Button front"
-			(at 76.835 266.065 0)
+			(at 74.93 265.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21419,7 +21521,7 @@
 			)
 		)
 		(property "Mount" "SMD"
-			(at 76.835 266.065 0)
+			(at 74.93 265.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21428,7 +21530,7 @@
 			)
 		)
 		(property "Export" "yes"
-			(at 76.835 266.065 0)
+			(at 74.93 265.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21437,7 +21539,7 @@
 			)
 		)
 		(property "Manufacturer" "ALPSALPINE"
-			(at 76.835 266.065 0)
+			(at 74.93 265.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21446,7 +21548,7 @@
 			)
 		)
 		(property "Mfg Part #" "SKPMAME010"
-			(at 76.835 266.065 0)
+			(at 74.93 265.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21455,7 +21557,7 @@
 			)
 		)
 		(property "Type" ""
-			(at 76.835 266.065 0)
+			(at 74.93 265.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22374,16 +22476,15 @@
 	(symbol
 		(lib_name "GND_15")
 		(lib_id "power:GND")
-		(at 111.76 266.7 0)
+		(at 110.49 267.97 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c8608188-bbfb-4202-9420-61b0aebf1ba5")
 		(property "Reference" "#PWR064"
-			(at 111.76 273.05 0)
+			(at 110.49 274.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22392,7 +22493,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 111.76 273.05 0)
+			(at 110.49 273.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22400,7 +22501,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 111.76 266.7 0)
+			(at 110.49 267.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22409,7 +22510,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 111.76 266.7 0)
+			(at 110.49 267.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22418,7 +22519,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 111.76 266.7 0)
+			(at 110.49 267.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22607,7 +22708,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 34.29 257.175 0)
+		(at 35.56 257.81 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22616,7 +22717,7 @@
 		(fields_autoplaced yes)
 		(uuid "cd47f17a-0911-4c8b-ad3d-97bed083078e")
 		(property "Reference" "S10"
-			(at 27.94 255.905 0)
+			(at 29.21 256.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22624,7 +22725,7 @@
 			)
 		)
 		(property "Value" "Face Button"
-			(at 40.64 255.905 0)
+			(at 41.91 256.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22633,7 +22734,7 @@
 			)
 		)
 		(property "Footprint" "ILO_fp:Alpsalpine_SKPM"
-			(at 34.29 252.095 0)
+			(at 35.56 252.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22642,7 +22743,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1811111111_ALPSALPINE-SKPMAME010_C115348.pdf"
-			(at 34.29 252.095 0)
+			(at 35.56 252.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22651,7 +22752,7 @@
 			)
 		)
 		(property "Description" "S2"
-			(at 34.29 257.175 0)
+			(at 35.56 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22660,7 +22761,7 @@
 			)
 		)
 		(property "LCSC" "C115348"
-			(at 34.29 257.175 0)
+			(at 35.56 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22669,7 +22770,7 @@
 			)
 		)
 		(property "Group" "Button front"
-			(at 34.29 257.175 0)
+			(at 35.56 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22678,7 +22779,7 @@
 			)
 		)
 		(property "Mount" "SMD"
-			(at 34.29 257.175 0)
+			(at 35.56 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22687,7 +22788,7 @@
 			)
 		)
 		(property "Export" "yes"
-			(at 34.29 257.175 0)
+			(at 35.56 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22696,7 +22797,7 @@
 			)
 		)
 		(property "Manufacturer" "ALPSALPINE"
-			(at 34.29 257.175 0)
+			(at 35.56 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22705,7 +22806,7 @@
 			)
 		)
 		(property "Mfg Part #" "SKPMAME010"
-			(at 34.29 257.175 0)
+			(at 35.56 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22714,7 +22815,7 @@
 			)
 		)
 		(property "Type" ""
-			(at 34.29 257.175 0)
+			(at 35.56 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23602,7 +23703,7 @@
 	(symbol
 		(lib_name "GND_13")
 		(lib_id "power:GND")
-		(at 25.4 271.145 0)
+		(at 26.67 271.78 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23611,7 +23712,7 @@
 		(fields_autoplaced yes)
 		(uuid "dc10955f-5585-4da7-83c2-e8127df16619")
 		(property "Reference" "#PWR063"
-			(at 25.4 277.495 0)
+			(at 26.67 278.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23620,7 +23721,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 25.4 276.225 0)
+			(at 26.67 276.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23628,7 +23729,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 25.4 271.145 0)
+			(at 26.67 271.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23637,7 +23738,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 25.4 271.145 0)
+			(at 26.67 271.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23646,7 +23747,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 25.4 271.145 0)
+			(at 26.67 271.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24189,7 +24290,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 34.29 253.365 0)
+		(at 35.56 254 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24198,7 +24299,7 @@
 		(fields_autoplaced yes)
 		(uuid "e95ea3a9-cda4-4a61-b5ce-b9c4049de13c")
 		(property "Reference" "S9"
-			(at 27.94 252.095 0)
+			(at 29.21 252.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24206,7 +24307,7 @@
 			)
 		)
 		(property "Value" "Face Button"
-			(at 40.64 252.095 0)
+			(at 41.91 252.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24215,7 +24316,7 @@
 			)
 		)
 		(property "Footprint" "ILO_fp:Alpsalpine_SKPM"
-			(at 34.29 248.285 0)
+			(at 35.56 248.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24224,7 +24325,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1811111111_ALPSALPINE-SKPMAME010_C115348.pdf"
-			(at 34.29 248.285 0)
+			(at 35.56 248.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24233,7 +24334,7 @@
 			)
 		)
 		(property "Description" "S1"
-			(at 34.29 253.365 0)
+			(at 35.56 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24242,7 +24343,7 @@
 			)
 		)
 		(property "LCSC" "C115348"
-			(at 34.29 253.365 0)
+			(at 35.56 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24251,7 +24352,7 @@
 			)
 		)
 		(property "Group" "Button front"
-			(at 34.29 253.365 0)
+			(at 35.56 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24260,7 +24361,7 @@
 			)
 		)
 		(property "Mount" "SMD"
-			(at 34.29 253.365 0)
+			(at 35.56 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24269,7 +24370,7 @@
 			)
 		)
 		(property "Export" "yes"
-			(at 34.29 253.365 0)
+			(at 35.56 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24278,7 +24379,7 @@
 			)
 		)
 		(property "Manufacturer" "ALPSALPINE"
-			(at 34.29 253.365 0)
+			(at 35.56 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24287,7 +24388,7 @@
 			)
 		)
 		(property "Mfg Part #" "SKPMAME010"
-			(at 34.29 253.365 0)
+			(at 35.56 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24296,7 +24397,7 @@
 			)
 		)
 		(property "Type" ""
-			(at 34.29 253.365 0)
+			(at 35.56 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25029,7 +25130,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical"
-			(at 50.8 109.22 0)
+			(at 50.8 114.046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25038,7 +25139,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2304140030_JST-BM04B-SRSS-TB-LF-SN_C160390.pdf"
-			(at 49.53 106.68 0)
+			(at 52.324 111.506 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25047,7 +25148,7 @@
 			)
 		)
 		(property "Description" "USB"
-			(at 54.61 102.87 0)
+			(at 54.102 96.012 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25056,7 +25157,7 @@
 			)
 		)
 		(property "LCSC" "C160390"
-			(at 54.61 102.87 0)
+			(at 53.086 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25065,7 +25166,7 @@
 			)
 		)
 		(property "Group" "Peripherals"
-			(at 54.61 102.87 0)
+			(at 54.356 94.234 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25074,7 +25175,7 @@
 			)
 		)
 		(property "Mount" "SMD"
-			(at 54.61 102.87 0)
+			(at 54.61 92.202 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25083,7 +25184,7 @@
 			)
 		)
 		(property "Export" "yes"
-			(at 54.61 102.87 0)
+			(at 54.864 90.424 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25092,7 +25193,7 @@
 			)
 		)
 		(property "Manufacturer" "JST"
-			(at 54.61 102.87 0)
+			(at 54.864 102.616 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25101,7 +25202,7 @@
 			)
 		)
 		(property "Mfg Part #" "BM04B-SRSS-TB(LF)(SN)"
-			(at 54.61 102.87 0)
+			(at 53.086 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25129,6 +25230,12 @@
 		)
 		(pin "4"
 			(uuid "ac63fb23-f544-48dd-bc04-2354c7c0a084")
+		)
+		(pin "MP"
+			(uuid "febdafef-26f8-4bea-88df-f68d38fdc043")
+		)
+		(pin "MP"
+			(uuid "c961bc2c-a580-4076-8525-d895dacf430f")
 		)
 		(instances
 			(project "osumgp-rp2040"
