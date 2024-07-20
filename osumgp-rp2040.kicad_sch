@@ -6790,126 +6790,6 @@
 				)
 			)
 		)
-		(symbol "power:VBUS"
-			(power)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "VBUS"
-				(at 0 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"VBUS\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "power-flag"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "VBUS_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "VBUS_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0) hide
-					(name "VBUS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 	)
 	(junction
 		(at 81.915 208.915)
@@ -7216,12 +7096,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b1196fe2-0d68-4e71-9013-c60c02e0fbf4")
-	)
-	(junction
-		(at 53.34 29.21)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b11e5a35-48da-4444-8011-6f1699191741")
 	)
 	(junction
 		(at 238.76 165.1)
@@ -9369,6 +9243,16 @@
 	)
 	(wire
 		(pts
+			(xy 67.31 29.21) (xy 104.14 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77335abf-6556-4dce-8fc6-4b9ac9499d82")
+	)
+	(wire
+		(pts
 			(xy 110.49 31.75) (xy 111.76 31.75)
 		)
 		(stroke
@@ -10279,7 +10163,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 29.21) (xy 67.31 29.21)
+			(xy 50.8 29.21) (xy 67.31 29.21)
 		)
 		(stroke
 			(width 0)
@@ -10459,16 +10343,6 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 29.21) (xy 53.34 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "be8f2acf-4c3b-4ddb-be7c-1f3f3634fc08")
-	)
-	(wire
-		(pts
 			(xy 111.76 256.54) (xy 115.57 256.54)
 		)
 		(stroke
@@ -10506,16 +10380,6 @@
 			(type default)
 		)
 		(uuid "c0e8124a-a223-45ee-a8ee-25095d5457bc")
-	)
-	(wire
-		(pts
-			(xy 53.34 27.94) (xy 53.34 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c19c1b9e-84c3-4840-8ea9-226145f8c98d")
 	)
 	(wire
 		(pts
@@ -11156,16 +11020,6 @@
 			(type default)
 		)
 		(uuid "eec73801-b508-4049-a57c-cf932742431f")
-	)
-	(wire
-		(pts
-			(xy 67.31 29.21) (xy 104.14 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "effc8c14-c327-4632-85a7-e730644d32a4")
 	)
 	(wire
 		(pts
@@ -14239,7 +14093,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VBUS"
+		(property "Value" "+5V"
 			(at 44.45 90.17 0)
 			(effects
 				(font
@@ -22031,72 +21885,6 @@
 			(project "osumgp-rp2040"
 				(path "/73e46140-01b8-4ec1-93bb-0d72bea0e0ee"
 					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VBUS")
-		(at 53.34 27.94 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bf196a9d-4dc8-4375-a146-e2db7761f2ee")
-		(property "Reference" "#PWR010"
-			(at 53.34 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VBUS"
-			(at 53.34 22.225 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 53.34 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 53.34 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 53.34 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b2f639a9-c9a0-4bfe-8118-ab49d723b5eb")
-		)
-		(instances
-			(project "osumgp-rp2040"
-				(path "/73e46140-01b8-4ec1-93bb-0d72bea0e0ee"
-					(reference "#PWR010")
 					(unit 1)
 				)
 			)
