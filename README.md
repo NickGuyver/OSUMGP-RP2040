@@ -50,5 +50,8 @@
 ![osumgp-rp2040_0 4b-real](https://github.com/user-attachments/assets/972e6f74-f13b-44ad-b16f-c4e3d9486174)
 
 ## Thanks
-Special thanks to the Alpakka and GP2040-CE projects, as well as the many people in the community who provided help and guidance.
+Special thanks to the [Alpakka](https://inputlabs.io/alpakka) and [GP2040-CE](https://gp2040-ce.info/) projects, as well as the many people in the community who provided help and guidance.
+
+## License
+This project is licensed under the Creative Commons Attribution 4.0 International License - see the [LICENSE](LICENSE) file for details.
 
