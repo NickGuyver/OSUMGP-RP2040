@@ -7873,7 +7873,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 93.98) (xy 135.89 93.98)
+			(xy 140.97 93.98) (xy 132.08 93.98)
 		)
 		(stroke
 			(width 0)
@@ -7890,16 +7890,6 @@
 			(type default)
 		)
 		(uuid "20160409-6261-4115-b1dd-584f93cf0fef")
-	)
-	(wire
-		(pts
-			(xy 160.02 102.87) (xy 160.02 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "237a1b90-882d-43eb-bf36-5eb1ab6d9295")
 	)
 	(polyline
 		(pts
@@ -8313,7 +8303,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 93.98) (xy 160.02 93.98)
+			(xy 148.59 93.98) (xy 152.4 93.98)
 		)
 		(stroke
 			(width 0)
@@ -9440,6 +9430,16 @@
 			(type default)
 		)
 		(uuid "89a062be-f943-4658-b04a-d845fdecab2c")
+	)
+	(wire
+		(pts
+			(xy 160.02 93.98) (xy 160.02 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89dbc56e-2edc-4e8e-8779-c590f6685067")
 	)
 	(wire
 		(pts
@@ -11841,7 +11841,7 @@
 		(uuid "81d3409e-0dc4-4a1b-9fd5-81ad980daa31")
 	)
 	(label "GPIO25"
-		(at 135.89 93.98 0)
+		(at 132.08 93.98 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13427,120 +13427,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 152.4 93.98 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "18ca32ca-dd24-4b3f-aa5d-16b162fcec5b")
-		(property "Reference" "D2"
-			(at 150.622 90.678 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED"
-			(at 150.622 88.138 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
-			(at 152.4 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1912111437_Yongyu-Photoelectric-SZYY0603O_C434425.pdf"
-			(at 152.4 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 152.4 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C434425"
-			(at 152.4 93.98 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "P/N" "SZYY0603O"
-			(at 152.4 93.98 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfg Part #" "SZYY0603O"
-			(at 152.4 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mount" "SMD"
-			(at 152.4 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Yongyu Photoelectric"
-			(at 152.4 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "57f9fe08-f15a-40fc-afc8-621729e8622f")
-		)
-		(pin "2"
-			(uuid "e90e4777-17aa-4e78-a16a-f7d4274e89f9")
-		)
-		(instances
-			(project "osumgp-rp2040"
-				(path "/73e46140-01b8-4ec1-93bb-0d72bea0e0ee"
-					(reference "D2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 120.65 252.73 0)
 		(unit 1)
@@ -13936,7 +13822,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 160.02 102.87 0)
+		(at 160.02 97.79 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13945,7 +13831,7 @@
 		(dnp no)
 		(uuid "1b57f321-e1e0-4ec7-842d-d11a925185a5")
 		(property "Reference" "#PWR016"
-			(at 160.02 109.22 0)
+			(at 160.02 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13954,7 +13840,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 159.893 107.2642 0)
+			(at 159.893 102.1842 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13962,7 +13848,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 160.02 102.87 0)
+			(at 160.02 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13971,7 +13857,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 160.02 102.87 0)
+			(at 160.02 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13980,7 +13866,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 160.02 102.87 0)
+			(at 160.02 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14495,6 +14381,120 @@
 			(project "osumgp-rp2040"
 				(path "/73e46140-01b8-4ec1-93bb-0d72bea0e0ee"
 					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 156.21 93.98 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2c609759-381c-4253-b1a5-83f7d4848754")
+		(property "Reference" "D1"
+			(at 154.432 90.678 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 154.432 88.138 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 156.21 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1912111437_Yongyu-Photoelectric-SZYY0603O_C434425.pdf"
+			(at 156.21 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 156.21 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C434425"
+			(at 156.21 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "SZYY0603O"
+			(at 156.21 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg Part #" "SZYY0603O"
+			(at 156.21 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mount" "SMD"
+			(at 156.21 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yongyu Photoelectric"
+			(at 156.21 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cc5e395a-5da0-4bc1-8a77-33945d7209da")
+		)
+		(pin "2"
+			(uuid "2761fd9f-e0f7-4795-92d2-902d9e697370")
+		)
+		(instances
+			(project "osumgp-rp2040"
+				(path "/73e46140-01b8-4ec1-93bb-0d72bea0e0ee"
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -20498,124 +20498,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 160.02 97.79 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9b60e115-6e3b-4d55-a8bf-7a1dd4a1f102")
-		(property "Reference" "R3"
-			(at 163.195 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1kΩ"
-			(at 163.195 98.425 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 158.242 97.79 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2205311845_UNI-ROYAL-Uniroyal-Elec-0402WGJ0102TCE_C25543.pdf"
-			(at 160.02 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 160.02 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C25543"
-			(at 160.02 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "P/N" "0402WGJ0102TCE"
-			(at 160.02 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 160.02 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfg Part #" "0402WGJ0102TCE"
-			(at 160.02 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mount" "SMD"
-			(at 160.02 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e7e13efc-7a94-4b03-b11d-bf27498ba0a3")
-		)
-		(pin "2"
-			(uuid "1da61b93-946b-4f64-87dd-cb56c7c90ff9")
-		)
-		(instances
-			(project "rpcube"
-				(path "/2fe78bb3-6c9b-4737-8793-454e476eabbd"
-					(reference "R3")
-					(unit 1)
-				)
-			)
-			(project "osumgp-rp2040"
-				(path "/73e46140-01b8-4ec1-93bb-0d72bea0e0ee"
-					(reference "R12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:USB_C_Receptacle_USB2.0")
 		(at 35.56 44.45 0)
 		(unit 1)
@@ -22388,6 +22270,118 @@
 			(project "osumgp-rp2040"
 				(path "/73e46140-01b8-4ec1-93bb-0d72bea0e0ee"
 					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 144.78 93.98 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cbc84448-e5e8-4a65-9257-f940c589d21c")
+		(property "Reference" "R2"
+			(at 144.653 89.916 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1kΩ"
+			(at 144.653 91.821 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 144.78 95.758 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2205311845_UNI-ROYAL-Uniroyal-Elec-0402WGJ0102TCE_C25543.pdf"
+			(at 144.78 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 144.78 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25543"
+			(at 144.78 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "0402WGJ0102TCE"
+			(at 144.78 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 144.78 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg Part #" "0402WGJ0102TCE"
+			(at 144.78 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mount" "SMD"
+			(at 144.78 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4405d28a-ce43-4d51-9a21-b84a7bcc010c")
+		)
+		(pin "2"
+			(uuid "53c678b0-a6c9-4d56-9a60-261822b144bf")
+		)
+		(instances
+			(project "osumgp-rp2040"
+				(path "/73e46140-01b8-4ec1-93bb-0d72bea0e0ee"
+					(reference "R2")
 					(unit 1)
 				)
 			)
