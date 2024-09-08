@@ -4,6 +4,7 @@
 
 ## Current Status
 - **Beta**: The project is currently in beta. Feedback and contributions to improve the design and functionality are appreciated.
+- **Case**: [RAF](https://github.com/RAF-no-desu) generously created a 3D printable case [here](https://www.printables.com/model/1000656-universal-modern-game-pad-w-usb-passthrough-osumgp)
 
 ## Features
 - **Open Source**: Fully open-source design and firmware for community collaboration and customization.
