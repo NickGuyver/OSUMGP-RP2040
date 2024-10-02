@@ -5,6 +5,7 @@
 ## Current Status
 - **Beta**: The project is currently in beta. Feedback and contributions to improve the design and functionality are appreciated.
 - **Case**: [RAF](https://github.com/RAF-no-desu) generously created a 3D printable case [here](https://www.printables.com/model/1000656-universal-modern-game-pad-w-usb-passthrough-osumgp)
+- **Firmware**: Latest release of GP2040-CE firmware is [here](https://github.com/OpenStickCommunity/GP2040-CE/releases/latest/download/GP2040-CE_0.7.10_OSUMGP-RP2040.uf2)
 
 ## Features
 - **Open Source**: Fully open-source design and firmware for community collaboration and customization.
