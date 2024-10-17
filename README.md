@@ -2,6 +2,8 @@
 
 **OSUMGP-RP2040**: **Open Source Universal Modern Game Pad - RP2040 Edition**. This project is a reference design for building a game pad utilizing the GP2040-CE firmware, specifically tailored for the RP2040 microcontroller.
 
+KiCanvas link so you don't have to download to just review the files is [here](https://kicanvas.org/?github=https%3A%2F%2Fgithub.com%2FNickGuyver%2FOSUMGP-RP2040)
+
 ## Current Status
 - **Beta**: The project is currently in beta. Feedback and contributions to improve the design and functionality are appreciated.
 - **Case**: [RAF](https://github.com/RAF-no-desu) generously created a 3D printable case [here](https://www.printables.com/model/1000656-universal-modern-game-pad-w-usb-passthrough-osumgp)
